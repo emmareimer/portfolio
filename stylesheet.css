@@ -1,0 +1,122 @@
+* {
+margin: auto;
+}
+
+header {
+    color: #fad3cf;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 75px;
+    display: inline-block;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fdfdfd;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color: #575151;
+}
+
+
+.float-left {
+    width: 300px;
+    text-align: center;
+    border: 2px;
+    border-radius: 20px;
+
+}
+
+.float-right {
+    width: 300px;
+    text-align: center;
+    border: 2px;
+    border-radius: 20px;
+}
+
+#bio {
+    background-color: #fad3cf;
+    width: 400px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    margin: 5 auto;
+    display: block;
+    text-align: center;
+}
+
+#examples {
+    background-color: #fad3cf;
+    width: 400px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    margin: 5 auto;
+    display: block;
+    text-align: center;
+}
+
+#education {
+    background-color: #fad3cf;
+    width: 400px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    margin: 5 auto;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    color: #fad3cf;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+
+@media screen and (max width: 479px) {
+   header {
+    flex-shrink: 1;
+    flex-basis: auto;
+   }
+   
+    section {
+    flex-shrink: 1;
+    flex-basis: auto;
+    }
+    
+}
+
