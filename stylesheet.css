@@ -9,6 +9,10 @@ header {
     margin: 20px;
 }
 
+a {
+    color: #fad3cf;
+}
+
 h1 {
     font-size: 75px;
     display: inline-block;
