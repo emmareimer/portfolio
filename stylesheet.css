@@ -22,7 +22,7 @@ h2 {
     color: #fdfdfd;
 }
 
-nav {
+.contact-buttons {
     font-size: 20px;
     text-align: center;
     justify-content: center;
@@ -31,10 +31,12 @@ nav {
 
 ul {
     list-style: none;
+    padding: auto;
 }
 
 li {
     display: inline-block;
+    padding-left: 15px;
 }
 
 main {
@@ -76,7 +78,7 @@ p {
     text-align: center;
 }
 
-#examples {
+#education {
     background-color: #fad3cf;
     width: 400px;
     padding: 20px;
@@ -87,7 +89,7 @@ p {
     text-align: center;
 }
 
-#education {
+#examples {
     background-color: #fad3cf;
     width: 400px;
     padding: 20px;
