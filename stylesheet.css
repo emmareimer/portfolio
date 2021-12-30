@@ -1,138 +1,154 @@
 * {
-margin: auto;
-}
-
-header {
-    color: #fad3cf;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
-}
-
-a {
-    color: #fad3cf;
-}
-
-h1 {
-    font-size: 75px;
-    display: inline-block;
-    justify-content: center;
-}
-
-h2 {
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: #fdfdfd;
     margin: 5px;
-}
+    }
 
-p {
-    margin: 5px;
-}
-
-img {
-    margin: 5px;
-}
-
-.contact-buttons {
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    margin: 5px;
-}
-
-ul {
-    list-style: none;
-    padding: auto;
-}
-
-li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-main {
-    align-items: center;
-    justify-content: center;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    text-align: center;
-    color: #575151;
-}
-
-
-.float-left {
-    width: 300px;
-    text-align: center;
-    border: 2px;
-    border-radius: 20px;
-
-}
-
-.float-right {
-    width: 300px;
-    text-align: center;
-    border: 2px;
-    border-radius: 20px;
-}
-
-#bio {
-    background-color: #fad3cf;
-    width: 400px;
-    padding: 20px;
-    border: 2px;
-    border-radius: 20px;
-    margin: 5 auto;
-    display: block;
-    text-align: center;
-}
-
-#education {
-    background-color: #fad3cf;
-    width: 400px;
-    padding: 20px;
-    border: 2px;
-    border-radius: 20px;
-    margin: 5 auto;
-    display: block;
-    text-align: center;
-}
-
-#examples {
-    background-color: #fad3cf;
-    width: 400px;
-    padding: 20px;
-    border: 2px;
-    border-radius: 20px;
-    margin: 5 auto;
-    display: block;
-    text-align: center;
-}
-
-footer {
-    color: #fad3cf;
-    text-align: center;
-    font-size: medium;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
-}
-
-
-@media screen and (max width: 479px) {
-   header {
-    flex-shrink: 1;
-    flex-basis: auto;
-   }
-   
-    section {
-    flex-shrink: 1;
-    flex-basis: auto;
+    :root {
+        --light: #fad3cf;
+        --dark: #ffb5b5;
+        --teal: #407088;
+        --blue: #132743;
     }
     
-}
+    header {
+        color: var(--light);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: block;
+        align-content: center;
+    }
 
+    #who {
+        margin-bottom: 10%;
+    }
+
+    #why {
+        margin-bottom: 10%;
+    }
+
+    #what {
+        margin-bottom: 5%;
+    }
+
+    nav {
+        position: relative;
+        color: var(--light);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #links {
+        text-align: right;
+    }
+    
+    a {
+        color: var(--light);
+        text-decoration: none;
+    }
+
+    a:hover {
+    background-color: var(--light);
+    color: var(--blue);
+    }
+    
+    h1 {
+        color: var(--light);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        font-size: 75px;
+        text-align: center;
+        margin: 200px 100px 100px 100px;
+    }
+
+    #bio-pic {
+        position: relative;
+        border-radius: 50%;
+        width: 150px;
+        margin-bottom: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h2 {
+        position: relative;
+        font-size: 75px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--light);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    h3 {
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--blue);
+        font-size: 30px;
+    }
+    
+    img {
+        position: relative;
+        margin: 5px;
+        border: 2px;
+        border-radius: 20px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: auto;
+    }
+    
+    li {
+        position: relative;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    p {
+        position: relative;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: var(--blue);
+    }
+
+    main {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-pic1 {
+        width: 600px;
+        height: 200px;
+    }
+
+    .app-pics {
+        width: 300px;
+        height: 200px;
+    }
+
+    footer {
+        font-size: medium;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    @media screen and (max width: 479px) {
+       header {
+        flex-shrink: 1;
+        flex-basis: auto;
+       }
+
+       nav {
+           display: flex;
+           justify-content: space-around;
+       }
+       
+        section {
+        flex-shrink: 1;
+        flex-basis: auto;
+        }
+        
+    }
+    
