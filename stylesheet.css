@@ -43,7 +43,7 @@
         text-decoration: none;
     }
 
-    a:hover {
+    .navlinks:hover {
     background-color: var(--light);
     color: var(--blue);
     }
@@ -58,7 +58,6 @@
     }
 
     #bio-pic {
-        position: relative;
         border-radius: 50%;
         width: 150px;
         margin-bottom: 100px;
@@ -68,7 +67,6 @@
     }
     
     h2 {
-        position: relative;
         font-size: 75px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: var(--light);
@@ -78,14 +76,12 @@
     }
 
     h3 {
-        position: relative;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: var(--blue);
         font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
     img {
-        position: relative;
         margin: 5px;
         border: 2px;
         border-radius: 20px;
@@ -93,62 +89,88 @@
     
     ul {
         list-style: none;
-        padding: auto;
     }
     
     li {
-        position: relative;
         display: inline-block;
         padding-left: 10px;
         padding-right: 10px;
     }
     
     p {
-        position: relative;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: var(--blue);
     }
 
-    main {
-        position: relative;
+    main, nav, header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
     }
 
-    .app-pic1 {
-        width: 600px;
+    #flex {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .big-image {
+        width: 800px;
         height: 200px;
     }
 
-    .app-pics {
+    .apps {
         width: 300px;
         height: 200px;
     }
 
+
     footer {
         font-size: medium;
-        text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
     }
     
     
-    @media screen and (max width: 479px) {
-       header {
-        flex-shrink: 1;
-        flex-basis: auto;
-       }
-
-       nav {
-           display: flex;
-           justify-content: space-around;
-       }
-       
-        section {
-        flex-shrink: 1;
-        flex-basis: auto;
+    @media screen and (max-width: 480px) {
+    
+        header {
+            display: inline-flex;
+            flex-wrap: wrap; 
+            text-align: left;       
         }
-        
+
+        h1, h2 {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        #links {
+            text-align: center;
+        }
+
+        main {
+            display: inline;
+        }
+
+        .big-image {
+            width: fit-content;
+        }
+
+        #flex {
+            display: block;
+        }
+
+        footer {
+            text-align: left;
+        }
+
     }
     
