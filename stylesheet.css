@@ -118,7 +118,7 @@
         color: var(--blue);
     }
 
-    main, nav, header {
+    main, header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -173,6 +173,7 @@
         #links {
             margin: 0 auto;
             padding: 0;
+            text-align: center;
         }
 
         main {
