@@ -19,6 +19,10 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
     }
 
     nav {
@@ -118,11 +122,12 @@
         color: var(--blue);
     }
 
-    main, header {
+    main {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
+        margin-top: 50px;
     }
 
     #block {
@@ -140,7 +145,7 @@
     }
 
     .apps {
-        width: 300px;
+        width: 400px;
         height: 200px;
     }
 
