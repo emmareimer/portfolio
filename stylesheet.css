@@ -142,11 +142,15 @@
     .big-image {
         width: 800px;
         height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .apps {
         width: 400px;
         height: 200px;
+        display: block;
     }
 
 
@@ -186,7 +190,7 @@
         }
 
         .big-image {
-            width: 300px;
+            width: 400px;
         }
 
         #flex {
