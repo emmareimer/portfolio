@@ -39,19 +39,19 @@
     }
     
     h1 {
-        color: var(--light);
+        color: var(--white);
         font-family: 'Pushster', cursive;
         position: relative;
         font-size: 75px;
         text-align: center;
         margin: 100px 100px 100px 100px;
         text-decoration: solid 5px;
-        text-shadow: 2px 2px 0px #f8f8ff;
+        text-shadow: 2px 2px 0px var(--dark);
     }
 
     #bio-pic {
         border-radius: 50%;
-        border: #fad3cf solid 10px;
+        border: #fad3cf solid 8px;
         width: 150px;
         margin-bottom: 100px;
         display: block;
