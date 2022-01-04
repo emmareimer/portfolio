@@ -31,12 +31,10 @@
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         padding: 5px;
-    
     }
 
-    /* Changes background/color of links in the nav bar */
+    /* changes color of links in the nav bar */
     .navlinks:hover {
-        background-color: var(--light);
         color: var(--blue);
     }
     
@@ -58,6 +56,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* changes size of bio-pic on hover */
+    #bio-pic:hover {
+        width: 160px;
     }
 
     #who {
@@ -150,7 +153,6 @@
     .big-image:hover {
         height: 210px;
         width: 810px;
-        box-shadow: #132743 2px;
     }
 
     .apps {
