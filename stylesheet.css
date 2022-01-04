@@ -147,12 +147,22 @@
         margin-right: auto;
     }
 
+    .big-image:hover {
+        height: 210px;
+        width: 810px;
+        box-shadow: #132743 2px;
+    }
+
     .apps {
         width: 400px;
         height: 200px;
         display: block;
     }
 
+    .apps:hover {
+        width: 410px;
+        height: 210px;
+    }
 
     footer {
         text-align: center;
