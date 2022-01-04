@@ -180,7 +180,7 @@
             text-align: left;       
         }
 
-        h1, h2 {
+        h2 {
             font-size: 35px;
             margin-top: 100px;
             margin-bottom: auto;
@@ -191,6 +191,11 @@
         h1 {
             color: #f8f8ff;
             text-shadow: none;
+            font-size: 35px;
+            margin-top: 100px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         h3 {
@@ -223,5 +228,8 @@
             display: block;
         }
 
+        #bio-pic {
+            border: #fad3cf solid 5px;
+        }
     }
     
