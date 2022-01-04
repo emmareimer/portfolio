@@ -202,7 +202,15 @@
         }
 
         .big-image {
-            width: 400px;
+            width: 300px;
+        }
+
+        .apps {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #flex {
