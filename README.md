@@ -4,24 +4,18 @@ The motivation behind this application is to showcase the different applications
 
 ## Description
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+The portfolio is filled with placeholders and mock data that will eventually be filled with real applications and data.
+
+The application is responsive and interactive.
+
 
 ## Usage
 
-I will keep refactoring this application and updating it with information and code as I learn throughout my bootcamp.
+I will keep refactoring this application and updating it with information as I learn throughout my bootcamp.
 
-The following image shows the web applications appearance and functionality:
+The application can be found here: https://emmareimer.github.io/portfolio/
 
-![screenshot](./Images/Screenshot.png)
+The following images show the web application's appearance and functionality:
+![screenshot](./Images/screenshot2.png)
+![screenshot](./Images/screenshot3.png)
+![screenshot](./Images/screenshot4.png)
