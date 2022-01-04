@@ -16,6 +16,6 @@ I will keep refactoring this application and updating it with information as I l
 The application can be found here: https://emmareimer.github.io/portfolio/
 
 The following images show the web application's appearance and functionality:
-![screenshot](./Images/screenshot2.png)
+![screenshot](./Images/screenshot1.png)
 ![screenshot](./Images/screenshot3.png)
 ![screenshot](./Images/screenshot4.png)
