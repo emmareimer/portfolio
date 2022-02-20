@@ -10,7 +10,7 @@
         --white: #f8f8ff;
     }
     
-    header {
+    #header1 {
         color: var(--light);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: block;
@@ -27,15 +27,17 @@
 
     nav {
         position: relative;
-        color: var(--light)
+        color: var(--light);
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         padding: 5px;
+        font-size: 1rem !important;
     }
 
     /* changes color of links in the nav bar */
     .navlinks:hover {
         color: var(--blue);
+        text-decoration: none;
     }
     
     h1 {
@@ -59,25 +61,49 @@
         margin-right: auto;
     }
 
+    #app-body, #about-me-body {
+        margin-top: 60px;
+    }
+
+    #right {
+        margin-left: 50px;
+    }
+
+    #left {
+        margin-right: 50px;
+    }
+
+    #palabra {
+        width: 600px;
+    }
+
+    #wd {
+        width: 600px;
+    }
+
+    #jq {
+        width: 600px;
+    }
+
+    #dp {
+        width: 600px;
+    }
+
+    #selfie {
+        width: 400px;
+    }
+
+    .app-cols {
+        align-content: center;
+    }
+
     /* changes size of bio-pic on hover */
     #bio-pic:hover {
         width: 160px;
     }
 
-    #who {
-        margin-bottom: 10%;
-    }
-
-    #why {
-        margin-bottom: 10%;
-    }
-
-    #what {
-        margin-bottom: 5%;
-    }
-
     #links {
-        text-align: right;
+        margin: 0 0 0 auto;
     }
     
     a {
@@ -86,12 +112,9 @@
     }
     
     h2 {
-        font-size: 75px;
+        font-size: 60px;
         font-family: 'Pushster', cursive;
         color: var(--light);
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
     }
 
     h3 {
@@ -101,7 +124,6 @@
     }
     
     img {
-        margin: 5px;
         border: 2px;
         border-radius: 20px;
     }
@@ -121,15 +143,14 @@
     }
     
     p {
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-size: 125%;
         color: var(--blue);
     }
 
+
+
     main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         text-align: center;
         margin-top: 50px;
     }
@@ -143,16 +164,30 @@
         flex-wrap: wrap;
     }
 
+    #who {
+        justify-content: center;
+    }
+
+    #why {
+        justify-content: center;
+    }
+
+    #what {
+        align-items: center;
+    }
+
     .big-image {
         width: 800px;
-        height: 200px;
+        height: 400px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        border: #fad3cf solid 8px;
+
     }
 
     .big-image:hover {
-        height: 210px;
+        height: 410px;
         width: 810px;
     }
 
@@ -169,6 +204,15 @@
 
     footer {
         text-align: center;
+    }
+
+    #contact {
+        text-align: center;
+        margin: 25px;
+    }
+
+    .contact-buttons {
+        margin: 25px;
     }
     
     
@@ -208,10 +252,6 @@
             text-align: center;
         }
 
-        main {
-            display: inline;
-        }
-
         .big-image {
             width: 300px;
         }
@@ -221,12 +261,8 @@
             height: 200px;
         }
 
-        .apps {
-            width: 300px;
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: auto;
-            margin-right: auto;
+        .smaller-apps {
+            width: auto;
         }
 
         .apps:hover {
