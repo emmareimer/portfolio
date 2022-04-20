@@ -9,6 +9,11 @@
         --blue: #132743;
         --white: #f8f8ff;
     }
+
+    body {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
     
     #header1 {
         color: var(--light);
@@ -30,7 +35,7 @@
         color: var(--light);
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
-        padding: 5px;
+        padding: 15px;
         font-size: 1rem !important;
     }
 
@@ -61,33 +66,29 @@
         margin-right: auto;
     }
 
-    #right {
-        margin-left: 50px;
+    /* .col, .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    } */
+
+    /* #right {
+        margin-left: 100px;
     }
 
     #left {
-        margin-right: 50px;
-    }
+        margin-right: 100px;
+    } */
 
-    #palabra {
-        width: 600px;
-    }
-
-    #wd {
-        width: 600px;
-    }
-
-    #jq {
-        width: 600px;
-    }
-
-    #dp {
-        width: 600px;
-    }
-
-    #selfie {
+    #palabra, #wd, #jq, #dp, #selfie {
         width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    .skillpic {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 75px;
+    }
+
 
     .app-cols {
         align-content: center;
@@ -116,7 +117,7 @@
     h3 {
         color: var(--blue);
         font-size: 30px;
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Pathway Gothic One', sans-serif;
     }
     
     img {
@@ -139,12 +140,11 @@
     }
     
     p {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 125%;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 16px;
         color: var(--blue);
+        margin-right: 100px;
     }
-
-
 
     main {
         text-align: center;
@@ -158,18 +158,6 @@
     #flex {
         display: inline-flex;
         flex-wrap: wrap;
-    }
-
-    #who {
-        justify-content: center;
-    }
-
-    #why {
-        justify-content: center;
-    }
-
-    #what {
-        align-items: center;
     }
 
     .big-image {
@@ -200,6 +188,8 @@
 
     footer {
         text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     #contact {
