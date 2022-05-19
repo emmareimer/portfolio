@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  margin-right: 10px;
-  margin-left: 10px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
 }
 
 .App-logo {
@@ -137,8 +137,9 @@ form {
 }
 
 #skills {
-  display: flex;
   justify-content: space-between;
+  margin-left: 200px !important;
+  margin-right: 200px !important;
 }
 
 /* ---------------------------- Footer ------------------------------- */
@@ -170,6 +171,13 @@ footer {
 
   .projectDivs {
     display: block;
+  }
+
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer {

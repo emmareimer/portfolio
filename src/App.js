@@ -18,6 +18,7 @@ function App() {
       <Skills />
       <ContactForm />
       <FooterApp />
+      
     </div>
   );
 };
