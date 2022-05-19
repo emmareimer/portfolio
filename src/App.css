@@ -20,6 +20,11 @@
   --beige: #9e9e9e;;
 }
 
+a, div {
+  text-decoration: none !important;
+  color: var(--lime);
+}
+
 /* ---------------------- Nav ----------------------- */
 nav {
   background-color: var(--light);
@@ -97,7 +102,7 @@ h2 {
   color: var(--lime);
 }
 
-.projectDivs {
+/* .projectDivs {
   display: flex;
   justify-content: space-around;
   margin-left: 100px;
@@ -111,7 +116,7 @@ h2 {
   height: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: .25rem;
-}
+} */
 
 
 /* ----------------------------- Contact Form -------------------------- */
@@ -178,6 +183,89 @@ footer {
 
 @import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+/* -------------------------- Test ---------------------------- */
+.opacity {
+  transition: opacity 0.5s;
+  opacity: 50%;
+}
+
+.opacity:hover,
+.opacity:hover > .highlighted-project,
+.opacity:hover > .other-projects-label {
+  cursor: pointer;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+.other-projects-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.other-projects {
+  width: 300px;
+  aspect-ratio: 1/1;
+  opacity: 50%;
+  transition: 0.5s;
+  border: 2px solid #dee2e2;
+}
+
+.other-projects-label {
+  margin: 0 auto;
+  width: 75%;
+  height: 25%;
+  background-color: #dee2e2;
+  color: var(--lime);
+  text-align: center;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.project-1:hover > .label-1,
+.project-2:hover > .label-2,
+.project-3:hover > .label-3 {
+  margin-top: 12.5%;
+  font-size: 166%;
+  width: 75%;
+  height: 75%;
+  opacity: 0.95;
+  transition: 0.5s;
+}
+
+.project-1 {
+  background-image: url("palabrav2.png");
+}
+
+.project-2 {
+  background-image: url("weather-dashboard.png");
+}
+
+.project-3 {
+  background-image: url("javascript_quiz.png");
+}
+
+.project-4 {
+  background-image: url("day_planner.png");
+}
+
+.project-1, .project-2, .project-3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
 
 /* -------------------- mobile media screen -------------------------- */

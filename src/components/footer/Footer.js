@@ -30,7 +30,7 @@ const Footer = () => {
                     </a>
             </div>
             <p id="yas">Built with React, yassss queen!</p>
-            <p id="yas">Emma Reimer, 2022</p>
+            <p id="yas">Ⓒdevwithemma</p>
         </footer>
     );
 };
