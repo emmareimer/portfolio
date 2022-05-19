@@ -116,11 +116,16 @@ h2 {
   margin-top: 40px;
 }
 
-button {
+#send-it {
   background-color: var(--lime);
   color: white;
+  border: none;
   border-radius: .25rem !important;
   margin-left: 20px !important;
+}
+
+form {
+  display: block;
 }
 
 /* ------------------------------ Skills ------------------------------- */
