@@ -153,7 +153,10 @@ h2 {
 
 .project-1:hover > .label-1,
 .project-2:hover > .label-2,
-.project-3:hover > .label-3 {
+.project-3:hover > .label-3,
+  .project-4:hover > .label-4,
+  .project-5:hover > .label-5,
+  .project-6:hover > .label-6 {
   margin-top: 12.5%;
   font-size: 166%;
   width: 75%;
@@ -178,7 +181,19 @@ h2 {
   background-image: url("day_planner.png");
 }
 
-.project-1, .project-2, .project-3, .project-4 {
+.project-5 {
+  background-image: url("note_taker.png");
+}
+
+.project-6 {
+  background-image: url("text_editor_pwa.png");
+}
+
+.project-7 {
+  background-image: url("dadJokes.png");
+}
+
+.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
