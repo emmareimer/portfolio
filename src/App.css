@@ -86,6 +86,11 @@ header {
   text-shadow: 2px 2px 0px var(--lime);
 }
 
+p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 /* --------------------------- Projects ---------------------------------- */
 h2 {
   font-size: 20px;
