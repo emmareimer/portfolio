@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+:root {
+  --light: #fad3cf;
+  --dark: #ffb5b5;
+  --teal: #407088;
+  --blue: #132743;
+  --white: #f8f8ff;
+  --lime: #266150;
+  --darkbrown: #4F4846;
+  --beige: #9e9e9e;;
+}
+
+/* ---------------------- Nav ----------------------- */
+nav {
+  background-color: var(--light);
+}
+.nav-item {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.navbar-nav, nav, .navbar {
+  display: inline;
+}
+
+#dropdown-basic {
+  background-color: var(--lime);
+  border: none;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ----------------------- Header ---------------------- */
+
+#bio-pic {
+  border-radius: 50%;
+  border: #fad3cf solid 8px;
+  width: 150px;
+  margin-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#bio-pic:hover {
+  width: 160px;
+}
+
+header {
+  color: var(--light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  align-content: center;
+  background-image: url(./mountains.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Pushster', cursive;
+}
+
+#hey {
+  padding-top: 50px;
+  font-size: 75px;
+  text-decoration: solid 5px;
+  text-shadow: 2px 2px 0px var(--lime);
+}
+
+/* --------------------------- Projects ---------------------------------- */
+h2 {
+  font-size: 20px;
+  color: var(--lime);
+}
+
+.projectDivs {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.projectPics {
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .25rem;
+}
+
+
+/* ----------------------------- Contact Form -------------------------- */
+
+#contact-me, #about-me, #projects, #skillsInPics {
+  font-family: 'Playfair Display', serif;
+  margin-top: 40px;
+}
+
+button {
+  background-color: var(--lime);
+  color: white;
+  border-radius: .25rem !important;
+  margin-left: 20px !important;
+}
+
+/* ------------------------------ Skills ------------------------------- */
+.skillpic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 75px;
+  border-radius: .25rem;
+  margin: 15px;
+}
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------- Footer ------------------------------- */
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ------------------------ Fonts --------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+
+/* -------------------- mobile media screen -------------------------- */
+
+@media screen and (max-width: 480px) {
+    
+  #hey {
+    padding-top: 25px;
+    font-size: 45px;
+    text-decoration: none;
+  }
+
+  .projectDivs {
+    display: block;
+  }
+
+  footer {
+    display: inline;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .projectPics {
+    width: 300px;
+  }
+
+  .projectDivs {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
