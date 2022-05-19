@@ -29,6 +29,8 @@ const Footer = () => {
                         <img src={instagram} alt="instagram logo" className="icons"></img>
                     </a>
             </div>
+            <p id="yas">Built with React, yassss queen!</p>
+            <p id="yas">Emma Reimer, 2022</p>
         </footer>
     );
 };
