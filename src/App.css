@@ -145,12 +145,19 @@ form {
 /* ---------------------------- Footer ------------------------------- */
 
 footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-top: 25px;
+  padding: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: var(--light);
   display: flex;
   justify-content: space-around;
+}
+
+.icons {
+  width: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* ------------------------ Fonts --------------------------------- */
