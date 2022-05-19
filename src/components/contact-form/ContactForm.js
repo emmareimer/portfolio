@@ -9,7 +9,7 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_3xdnmyq', 'template_n5t6q1y', form.current, '-jJWADHxvYDm_MRPM')
       .then((result) => {
-        alert("Yasss queen! Thank you, talk soon!")
+        alert("Yasss, queen! Thank you, talk soon!")
         form.current.reset();
           console.log(result.text);
       }, (error) => {
@@ -26,7 +26,7 @@ const ContactForm = () => {
         <div className='formStuff'><input type="text" placeholder="Name" name="user_name" /></div>
         <div className='formStuff'><input type="email" placeholder="Email" name="user_email" /></div>
         <div className='formStuff'><textarea placeholder="Message" name="message" /></div>
-        <input type="submit" value="Send it!" id="send-it" />
+        <input type="submit" value="Send it!" id="send-it"/>
         </form>
     </div>
   );

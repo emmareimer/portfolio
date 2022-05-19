@@ -147,6 +147,7 @@ h2 {
   justify-self: center;
   align-items: center;
   text-decoration: none;
+  font-weight: 900;
 }
 
 .project-1:hover > .label-1,
