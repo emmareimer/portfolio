@@ -10,6 +10,7 @@ const ContactForm = () => {
     emailjs.sendForm('service_3xdnmyq', 'template_n5t6q1y', form.current, '-jJWADHxvYDm_MRPM')
       .then((result) => {
         alert("Yasss queen! Thank you, talk soon!")
+        form.current.reset();
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
