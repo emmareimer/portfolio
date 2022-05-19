@@ -130,7 +130,7 @@ h2 {
   aspect-ratio: 1/1;
   opacity: 50%;
   transition: 0.5s;
-  border: 2px solid var(--dark);
+  /* border: 2px solid var(--dark); */
 }
 
 .other-projects-label {
@@ -182,7 +182,7 @@ h2 {
 }
 
 .project-5 {
-  background-image: url("note_taker.png");
+  background-image: url("noteTaker.png");
 }
 
 .project-6 {
