@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6e113507.css",
-    "main.js": "/portfolio/static/js/main.124534b2.js",
+    "main.css": "/portfolio/static/css/main.068a384f.css",
+    "main.js": "/portfolio/static/js/main.17a9611a.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/me.jpeg": "/portfolio/static/media/me.2fadc0559be18947e6f2.jpeg",
     "static/media/mountains.jpeg": "/portfolio/static/media/mountains.4b4433721bf2dc2a130a.jpeg",
@@ -9,19 +9,22 @@
     "static/media/javascript_quiz.png": "/portfolio/static/media/javascript_quiz.d3ee52fb948e9149e63f.png",
     "static/media/palabrav2.png": "/portfolio/static/media/palabrav2.115ac94289cda10d3797.png",
     "static/media/day_planner.png": "/portfolio/static/media/day_planner.7e42d6c76c455582012a.png",
+    "static/media/text_editor_pwa.png": "/portfolio/static/media/text_editor_pwa.446e5df3694fbdea081c.png",
+    "static/media/dadJokes.png": "/portfolio/static/media/dadJokes.108c86b1c4d75c79f0b9.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.32c248432e2b86298964.png",
+    "static/media/note_taker.png": "/portfolio/static/media/note_taker.aede4eef5a58e374fe7e.png",
     "static/media/mysql-logo.png": "/portfolio/static/media/mysql-logo.26458ccfa711dd78ba3d.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.0bcc2a2f079171db4538.png",
     "static/media/mdb.webp": "/portfolio/static/media/mdb.e232b4ee942731aab7f7.webp",
     "static/media/github-11-xxl.png": "/portfolio/static/media/github-11-xxl.6fdc80f1a5d385046460.png",
     "static/media/graphql.webp": "/portfolio/static/media/graphql.1b22a6dbc2990d4109f8.webp",
     "index.html": "/portfolio/index.html",
-    "main.6e113507.css.map": "/portfolio/static/css/main.6e113507.css.map",
-    "main.124534b2.js.map": "/portfolio/static/js/main.124534b2.js.map",
+    "main.068a384f.css.map": "/portfolio/static/css/main.068a384f.css.map",
+    "main.17a9611a.js.map": "/portfolio/static/js/main.17a9611a.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e113507.css",
-    "static/js/main.124534b2.js"
+    "static/css/main.068a384f.css",
+    "static/js/main.17a9611a.js"
   ]
 }
