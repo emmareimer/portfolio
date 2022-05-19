@@ -13,9 +13,9 @@ import graphQL from "./graphql.webp"
 
 const Skills = () => {
     return (
-        <div id="skills">
+        <div>
             <div><h1 id="skillsInPics">Skills</h1></div>
-            <div>
+            <div id="skills">
             <img src={hTmL} alt="html logo" class="skillpic" />
             <img src={cssPic} alt="css logo" class="skillpic" />
             <img src={jsPic} alt="javascript logo" class="skillpic" />

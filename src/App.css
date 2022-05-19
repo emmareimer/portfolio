@@ -254,10 +254,11 @@ footer {
   background-image: url("day_planner.png");
 }
 
-.project-1, .project-2, .project-3 {
+.project-1, .project-2, .project-3, .project-4 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 10px;
 }
 
 .project-carousel {
@@ -285,6 +286,7 @@ footer {
   #skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-left: 0px;
     margin-right: 0px;
   }
