@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const form = useRef();
