@@ -26,6 +26,7 @@ a {
 
 p {
   font-family: 'Roboto', sans-serif;
+  margin: 0px !important;
 }
 
 /* ---------------------- Nav ----------------------- */
@@ -98,6 +99,23 @@ header {
 p {
   margin-left: 200px;
   margin-right: 200px;
+}
+
+/* -------------------------- About Me ------------------------ */
+
+.headshot {
+  width: 400px;
+  margin-left: 25%;
+}
+
+#about-me-section {
+  display: flex;
+}
+
+#bio {
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 15%;
 }
 
 /* --------------------------- Projects ---------------------------------- */
@@ -242,8 +260,8 @@ form {
 
 #skills {
   justify-content: space-between;
-  margin-left: 200px !important;
-  margin-right: 200px !important;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* ---------------------------- Footer ------------------------------- */
@@ -278,7 +296,7 @@ footer {
 
 /* -------------------- mobile media screen -------------------------- */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     
   #hey {
     padding-top: 25px;
@@ -291,9 +309,6 @@ footer {
   }
 
   #skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -316,6 +331,14 @@ footer {
   p {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .headshot {
+    display: none;
+  }
+
+  #bio {
+    text-align: center;
   }
   
 }

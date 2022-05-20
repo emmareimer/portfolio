@@ -13,20 +13,20 @@ import graphQL from "./graphql.webp"
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skillDiv">
             <div><h1 id="skillsInPics">Skills</h1></div>
             <div id="skills">
-            <img src={hTmL} alt="html logo" class="skillpic" />
-            <img src={cssPic} alt="css logo" class="skillpic" />
-            <img src={jsPic} alt="javascript logo" class="skillpic" />
-            <img src={git} alt="git logo" class="skillpic" />
-            <img src={node} alt="node logo" class="skillpic" />
-            <img src={jquery} alt="jquery logo" class="skillpic" />
-            <img src={mysql} alt="mysql logo" class="skillpic" />
-            <img src={bootstrapLogo} alt="bootstrap logo" class="skillpic" />
-            <img src={reactLogo}alt="react logo" class="skillpic" />
-            <img src={mdb} alt="mongodb logo" class="skillpic" />
-            <img src={graphQL}alt="graph ql logo" class="skillpic" />
+                <img src={hTmL} alt="html logo" class="skillpic" />
+                <img src={cssPic} alt="css logo" class="skillpic" />
+                <img src={jsPic} alt="javascript logo" class="skillpic" />
+                <img src={git} alt="git logo" class="skillpic" />
+                <img src={node} alt="node logo" class="skillpic" />
+                <img src={jquery} alt="jquery logo" class="skillpic" />
+                <img src={mysql} alt="mysql logo" class="skillpic" />
+                <img src={bootstrapLogo} alt="bootstrap logo" class="skillpic" />
+                <img src={reactLogo}alt="react logo" class="skillpic" />
+                <img src={mdb} alt="mongodb logo" class="skillpic" />
+                <img src={graphQL}alt="graph ql logo" class="skillpic" />
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 const ContactForm = () => {
   const form = useRef();
 
@@ -9,7 +10,6 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_3xdnmyq', 'template_n5t6q1y', form.current, '-jJWADHxvYDm_MRPM')
       .then((result) => {
-        alert("Yasss, queen! Thank you, talk soon!")
         form.current.reset();
           console.log(result.text);
       }, (error) => {
@@ -18,7 +18,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div id="contactDiv">
         <h1 id="contact-me">Slide in my DM's</h1>
       
         <form ref={form} onSubmit={sendEmail}>
