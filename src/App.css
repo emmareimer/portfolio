@@ -287,6 +287,10 @@ footer {
   font-size: 12px;
 }
 
+#footerInfo {
+  margin-top: 10px;
+}
+
 /* ------------------------ Fonts --------------------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");

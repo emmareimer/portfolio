@@ -4,6 +4,8 @@ import linkedin from './linkedin-6-xxl.png'
 import mailIcon from './telegram-2-xxl.png'
 import githubIcon from './github-11-xxl.png'
 import instagram from './instagram-xxl.png'
+import resume from './resumeIcon.png'
+import emma_reimer_resume from './emma_reimer_resume.pdf'
 
 const Footer = () => {
     return (
@@ -28,8 +30,14 @@ const Footer = () => {
                     <a href="https://instagram.com/ermarermer" target="_blank" rel="noopener noreferrer">
                         <img src={instagram} alt="instagram logo" className="icons"></img>
                     </a>
+
+                    <a href={emma_reimer_resume} download={true} target="_blank" rel="noopener noreferrer">
+                        <img src={resume} alt="icon of paper" className="icons"></img>
+                    </a>
             </div>
+            <div id="footerInfo">
             <p id="yas">C: 309-706-9070 <br/> E: developwithemma@gmail.com <br/> Ⓒdevwithemma</p>
+            </div>
         </footer>
     );
 };
