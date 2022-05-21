@@ -4,6 +4,7 @@ import headshot from "./headshot.png"
 const AboutMe = () => {
     return (
     <div>
+        <div></div>
         <h1 id="about-me">About Emma</h1>
         
         <div id="about-me-section">

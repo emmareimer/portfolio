@@ -103,9 +103,13 @@ p {
 
 /* -------------------------- About Me ------------------------ */
 
+#about-me {
+  padding-top: 50px;
+}
+
 .headshot {
   width: 300px;
-  margin-left: 25%;
+  margin-left: 300px;
 }
 
 #about-me-section {
@@ -114,15 +118,17 @@ p {
 
 #bio {
   text-align: left;
-  margin-right: 10%;
-  margin-left: 15%;
+  margin-right: 300px;
   height: 300px;
   overflow-y: scroll;
+  margin-left: 100px;
 }
 
 #scarletBegonias {
   text-align: center;
   font-family: 'Playfair Display', serif;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #quote {
@@ -130,6 +136,10 @@ p {
 }
 
 /* --------------------------- Projects ---------------------------------- */
+#projects {
+  padding-top: 50px;
+}
+
 h2 {
   font-size: 20px;
   color: var(--lime);
@@ -226,7 +236,7 @@ h2 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 10px;
+  margin: 30px;
 }
 
 .project-carousel {
@@ -261,18 +271,27 @@ form {
   display: block;
 }
 
+#contactDiv {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* ------------------------------ Skills ------------------------------- */
 .skillpic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 75px;
   border-radius: .25rem;
-  margin: 15px;
+  margin: 25px;
 }
 
 #skills {
   justify-content: space-between;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+#skillDiv {
+  padding-top: 50px;
 }
 
 /* ---------------------------- Footer ------------------------------- */
