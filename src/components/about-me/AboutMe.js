@@ -13,7 +13,7 @@ const AboutMe = () => {
 
         
 
-            <div id="bio">
+            <div id="bio" >
                 <p>
                     Originally from Bloomington, IL, Emma moved to Denver in early 2017. With a strong background in sales, marketing, and property and business management, Emma joined a small tech startup, Proximity, in 2019, whose focus was providing exceptional workplace management software. Emma excelled at her customer success role and quickly moved to the Senior Customer Success Advisor Tier II role. In this role she was able to use her analytical mindset, her ability to troubleshoot, and her knowledge of the front-end and back-end of the software to find resolutions to customer issues and maintain a very high rate of customer satisfaction. <br /><br />
                 </p>
@@ -26,7 +26,7 @@ const AboutMe = () => {
             </div>
             </div>
 
-                <div>
+                <div id="quote">
                     <p id="scarletBegonias">
                         the kindest thing my father ever said to me - <br/>
                         <em>women like you drown oceans</em> <br/>
