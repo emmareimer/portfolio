@@ -138,6 +138,8 @@ p {
 /* --------------------------- Projects ---------------------------------- */
 #projects {
   padding-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 h2 {
@@ -357,6 +359,11 @@ footer {
     width: 300px;
   }
 
+  #projects {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .projectDivs {
     margin-left: 0px;
     margin-right: 0px;
@@ -373,7 +380,10 @@ footer {
 
   #bio {
     text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
   }
+
   
 }
 
