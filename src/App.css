@@ -118,6 +118,11 @@ p {
   margin-left: 15%;
 }
 
+#scarletBegonias {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
 /* --------------------------- Projects ---------------------------------- */
 h2 {
   font-size: 20px;
