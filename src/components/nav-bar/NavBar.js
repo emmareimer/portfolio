@@ -18,7 +18,7 @@ const NavBar = () => {
             <Dropdown.Menu>
               <Dropdown.Item href="#about-me">About Me</Dropdown.Item>
               <Dropdown.Item href="#projects">Projects</Dropdown.Item>
-              <Dropdown.Item href="#skills">Skills</Dropdown.Item>
+              <Dropdown.Item href="#skillz">Skills</Dropdown.Item>
               <Dropdown.Item href="#contact-me">Contact</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

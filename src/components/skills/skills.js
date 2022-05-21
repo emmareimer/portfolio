@@ -16,7 +16,7 @@ import reduxLogo from "./redux.png"
 
 const Skills = () => {
     return (
-        <div id="skillDiv">
+        <div id="skillz">
             <div><h1 id="skillsInPics">Skills</h1></div>
             <div id="skills">
                 <img src={hTmL} alt="html logo" className="skillpic" />

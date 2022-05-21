@@ -288,13 +288,10 @@ form {
   margin: 25px;
 }
 
-#skills {
+#skillz {
   justify-content: space-between;
   margin-left: 200px;
   margin-right: 200px;
-}
-
-#skillDiv {
   padding-top: 50px;
 }
 
@@ -346,7 +343,7 @@ footer {
     display: block;
   }
 
-  #skills {
+  #skillz {
     margin-left: 0px;
     margin-right: 0px;
   }
