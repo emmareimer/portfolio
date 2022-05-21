@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea999e5f.css",
-    "main.js": "/portfolio/static/js/main.5d3b1878.js",
+    "main.css": "/portfolio/static/css/main.513253ca.css",
+    "main.js": "/portfolio/static/js/main.494c4b35.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/headshot.png": "/portfolio/static/media/headshot.333f23c4f7ee24b3fbc5.png",
     "static/media/me.jpeg": "/portfolio/static/media/me.2fadc0559be18947e6f2.jpeg",
@@ -13,20 +13,21 @@
     "static/media/emma_reimer_resume.pdf": "/portfolio/static/media/emma_reimer_resume.0aa8555c5a50db768a80.pdf",
     "static/media/text_editor_pwa.png": "/portfolio/static/media/text_editor_pwa.446e5df3694fbdea081c.png",
     "static/media/dadJokes.png": "/portfolio/static/media/dadJokes.108c86b1c4d75c79f0b9.png",
-    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.32c248432e2b86298964.png",
     "static/media/noteTaker.png": "/portfolio/static/media/noteTaker.a2ef280873ada4b53623.png",
+    "static/media/apollo.png": "/portfolio/static/media/apollo.bcf073aeb06dd1ef2091.png",
     "static/media/mysql-logo.png": "/portfolio/static/media/mysql-logo.26458ccfa711dd78ba3d.png",
-    "static/media/jquery.png": "/portfolio/static/media/jquery.0bcc2a2f079171db4538.png",
     "static/media/mdb.webp": "/portfolio/static/media/mdb.e232b4ee942731aab7f7.webp",
+    "static/media/jwt.png": "/portfolio/static/media/jwt.115c38eb2515b8532059.png",
+    "static/media/expressjs.png": "/portfolio/static/media/expressjs.b44f5a4b0ab040328aac.png",
     "static/media/github-11-xxl.png": "/portfolio/static/media/github-11-xxl.6fdc80f1a5d385046460.png",
     "static/media/graphql.webp": "/portfolio/static/media/graphql.1b22a6dbc2990d4109f8.webp",
     "index.html": "/portfolio/index.html",
-    "main.ea999e5f.css.map": "/portfolio/static/css/main.ea999e5f.css.map",
-    "main.5d3b1878.js.map": "/portfolio/static/js/main.5d3b1878.js.map",
+    "main.513253ca.css.map": "/portfolio/static/css/main.513253ca.css.map",
+    "main.494c4b35.js.map": "/portfolio/static/js/main.494c4b35.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea999e5f.css",
-    "static/js/main.5d3b1878.js"
+    "static/css/main.513253ca.css",
+    "static/js/main.494c4b35.js"
   ]
 }
