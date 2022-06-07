@@ -7,7 +7,7 @@ const Header = () => {
 
     <header>
         <h1 id="hey">
-            Hey, I'm Emma and I'm a full-stack developer.
+            Hey I'm Emma and I'm your friendly customer success guru and full-stack web developer.
         </h1>
         <a href="#about-me">
             <img src={me} alt="pic of me" id="bio-pic"></img>
