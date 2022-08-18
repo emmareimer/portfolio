@@ -11,9 +11,6 @@ const Footer = () => {
     return (
         <footer>
             <div id="icons">
-                    <a href="tel:13097069070">
-                        <img src={phone} alt="phone icon" className="icons"></img>
-                    </a>
 
                     <a href="https://www.linkedin.com/in/emmareimer/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedin} alt="pink linkedin logo" target="_blank" rel="noopener noreferrer" className="icons"></img>
